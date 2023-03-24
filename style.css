@@ -1,0 +1,17 @@
+body{
+    margin: 50px auto;
+}
+
+.main-box{
+    width: 330px;
+    margin: 50px auto;
+}
+
+.box{
+    height: 110px;
+    width: 110px;
+    background-color: aqua;
+    cursor: pointer;
+} 
+
+
