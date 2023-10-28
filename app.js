@@ -10,7 +10,7 @@ let t8 = [b,e,h]
 
 let data = [t1,t2,t3,t4,t5,t6,t7,t8]
 let winner = "Draw"
-const color = ["red", "green"];
+const color = ["rgb(255, 54, 54)", "rgb(3, 255, 3)"];
 let gameOn = true
 let colorIndex = 1;
 for(let i=0; i<tiles.length; i++){
@@ -42,10 +42,10 @@ for(let i=0; i<tiles.length; i++){
             })
             for(let i=0; i<someData.length; i++){
                 if(someData[i][0][0] == someData[i][1][0] && someData[i][1][0] == someData[i][2][0] && someData[i][0][0]!=""){
-                    if(someData[i][0][0] == "green"){
+                    if(someData[i][0][0] == "rgb(3, 255, 3)"){
                         winner = p1.value
                     }
-                    else if(someData[i][0][0] == "red"){
+                    else if(someData[i][0][0] == "rgb(255, 54, 54)"){
                         winner = p2.value
                     }
                     h1.innerText = `${winner} Wins`
