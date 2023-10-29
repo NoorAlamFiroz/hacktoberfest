@@ -9,7 +9,7 @@ let t7 = [d,e,f]
 let t8 = [b,e,h]
 
 let data = [t1,t2,t3,t4,t5,t6,t7,t8]
-let winner = "Draw"
+let winner = "Draw 😵‍💫"
 const color = ["rgb(255, 54, 54)", "rgb(3, 255, 3)"];
 let gameOn = true
 let colorIndex = 1;
@@ -48,7 +48,7 @@ for(let i=0; i<tiles.length; i++){
                     else if(someData[i][0][0] == "rgb(255, 54, 54)"){
                         winner = p2.value
                     }
-                    h1.innerText = `${winner} Wins`
+                    h1.innerText = `${winner} Wins 🏆`
                     someData[i][0][1].style.border = "solid 10px rgb(47, 255, 54)"
                     someData[i][1][1].style.border = "solid 10px rgb(47, 255, 54)"
                     someData[i][2][1].style.border = "solid 10px rgb(47, 255, 54)"
