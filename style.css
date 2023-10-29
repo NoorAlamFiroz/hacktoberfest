@@ -15,4 +15,12 @@ body{
     cursor: pointer;
 } 
 
+footer{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    margin: 50px auto 25px;
+}
+
 
